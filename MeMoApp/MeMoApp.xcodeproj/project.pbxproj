@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AB30563528B07FBF00091BCC /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB30563428B07FBF00091BCC /* MemoCell.swift */; };
+		AB30563728B0802400091BCC /* ComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB30563628B0802400091BCC /* ComposeView.swift */; };
 		ABC5F4A928AFD6AB00616FC9 /* MeMoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC5F4A828AFD6AB00616FC9 /* MeMoAppApp.swift */; };
 		ABC5F4AD28AFD6AE00616FC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC5F4AC28AFD6AE00616FC9 /* Assets.xcassets */; };
 		ABC5F4B028AFD6AE00616FC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC5F4AF28AFD6AE00616FC9 /* Preview Assets.xcassets */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		AB30563428B07FBF00091BCC /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
+		AB30563628B0802400091BCC /* ComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeView.swift; sourceTree = "<group>"; };
 		ABC5F4A528AFD6AB00616FC9 /* MeMoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeMoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC5F4A828AFD6AB00616FC9 /* MeMoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeMoAppApp.swift; sourceTree = "<group>"; };
 		ABC5F4AC28AFD6AE00616FC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,6 +48,8 @@
 			isa = PBXGroup;
 			children = (
 				AB30563428B07FBF00091BCC /* MemoCell.swift */,
+				ABC5F4BB28AFD6E500616FC9 /* MainListView.swift */,
+				AB30563628B0802400091BCC /* ComposeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -73,7 +77,6 @@
 				ABC5F4C128AFD9C200616FC9 /* Memory */,
 				ABC5F4BD28AFD70300616FC9 /* CoreData */,
 				ABC5F4A828AFD6AB00616FC9 /* MeMoAppApp.swift */,
-				ABC5F4BB28AFD6E500616FC9 /* MainListView.swift */,
 				ABC5F4AC28AFD6AE00616FC9 /* Assets.xcassets */,
 				ABC5F4AE28AFD6AE00616FC9 /* Preview Content */,
 			);
@@ -181,6 +184,7 @@
 				ABC5F4C528AFDA5200616FC9 /* MemoStore.swift in Sources */,
 				ABC5F4BC28AFD6E500616FC9 /* MainListView.swift in Sources */,
 				ABC5F4A928AFD6AB00616FC9 /* MeMoAppApp.swift in Sources */,
+				AB30563728B0802400091BCC /* ComposeView.swift in Sources */,
 				ABC5F4B528AFD6AE00616FC9 /* MeMoApp.xcdatamodeld in Sources */,
 				ABC5F4C328AFD9CB00616FC9 /* Memo.swift in Sources */,
 			);
