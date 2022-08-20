@@ -11,9 +11,9 @@ import SwiftUI
 class Memo: Identifiable, ObservableObject {
   let id: UUID
   @Published var content: String //새로운 값을 추가할때마다 자동으로 업데이트 된다.
-  let insertData: Data
+  let insertData: Date
   
-  init(content: String, insertData: Data = Data.init()) {
+  init(content: String, insertData: Date = Date.now) {
     id = UUID()
     self.content = content
     self.insertData = insertData
