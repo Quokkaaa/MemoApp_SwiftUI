@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ComposeView: View {
+struct WriteView: View {
   @EnvironmentObject var store: MemoStore
   
   @Environment(\.dismiss) var dismiss
@@ -47,7 +47,7 @@ struct ComposeView: View {
 
 struct ComposeView_Previews: PreviewProvider {
     static var previews: some View {
-        ComposeView()
+        WriteView()
         .environmentObject(MemoStore())
     }
 }

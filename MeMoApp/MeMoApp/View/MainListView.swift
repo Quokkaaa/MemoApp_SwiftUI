@@ -10,6 +10,7 @@ import SwiftUI
 struct MainListView: View {
   @EnvironmentObject var store: MemoStore
   // 하나의 데이터를 여러뷰에 공유하고싶을때 이런식으로 사용한다 ?
+  @State private var showComposer: Bool = false
   
     var body: some View {
       NavigationView {
@@ -18,6 +19,16 @@ struct MainListView: View {
         }
         .listStyle(.plain)
         .navigationTitle("쿼카 메모")
+        .toolbar {
+          Button {
+            showComposer = true
+          } label: {
+            Image(systemName: "plus")
+          }
+        }
+        .sheet(isPresented: $showComposer) {
+          WriteView()
+        }
       }
     }
 }
